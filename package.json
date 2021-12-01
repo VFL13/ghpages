@@ -1,8 +1,8 @@
 {
-  "name": "project_name",
+  "name": "ghpages",
   "version": "1.0.0",
   "description": "Test GitHub Actions Deploy",
-  "homepage": "https://{login}.github.io/{project_name}",
+  "homepage": "https://vfl13.github.io/ghpages",
   "main": "index.js",
   "scripts": {
     "serve": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,styles/**/*",
