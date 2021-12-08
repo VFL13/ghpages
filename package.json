@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .",
     "build": "parcel build src/index.html --out-dir dist --public-url ./",
-    "deploy": "gh-pages -d dist --remote my-origin"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "github-actions"
