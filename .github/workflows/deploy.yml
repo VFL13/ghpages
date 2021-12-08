@@ -19,6 +19,8 @@ jobs:
 
       - name: Deploy with gh-pages
         run: |
+          git config --global user.email "vafly13@gmail.com"
+          git config --global user.name "VFL13"
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npx gh-pages -d dist
         env:
